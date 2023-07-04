@@ -1,0 +1,77 @@
+#heading {
+  color: gray;
+  text-align: center;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 60px;
+}
+
+.heading {
+  color: blue;
+  text-align: center;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+}
+#navbar a {
+  list-style: none;
+  margin: 3px;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #383cc1;
+  color: white;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 5px 10px;
+  border-radius: 5px;
+  /* h v b s */
+  box-shadow: 0px 2px 5px rgb(48, 48, 48);
+}
+#navbar a:hover {
+  background-color: #4a4df4;
+}
+
+.container {
+  border: 2px solid black;
+  width: 100%;
+  height: 500px;
+  display: grid;
+  gap: 50px 100px;
+  grid-template-columns: 100px 100px 100px;
+  padding: 10px;
+  /* flex-direction: row-reverse; */
+}
+
+#red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+}
+#yellow {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  color: black;
+  border-radius: 10px;
+  position: static;
+  top: 10px;
+  left: 10px;
+}
+#green {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+}
+/* h3 {
+border: 1px solid black;
+} */
