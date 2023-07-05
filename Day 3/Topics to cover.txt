@@ -1,0 +1,8 @@
+1) Varaibles and Datatypes 
+2) Conditional Statements and loops
+3) functions and Arrow functions
+4) fetch api, async await and promises
+5) Array methods and Array Destructuring 
+6) spread operator and window
+7) local storage
+
