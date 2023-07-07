@@ -101,9 +101,11 @@ const Form = () => {
           </div>
 
           {/* button */}
-          <button type="submit" onClick={addPost}>
-            Submit
-          </button>
+          <div>
+            <button type="submit" onClick={addPost}>
+              Submit
+            </button>
+          </div>
         </div>
       </div>
     </>
